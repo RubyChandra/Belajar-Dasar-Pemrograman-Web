@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Gawai Store Lampung</title>
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>Gawai Store Lampung</h1>
+            <img class="photo-header" src="assets/image/logo.png" alt="Logo Toko">
+            <p>Pilihan Tempat <em>Terbaik</em> Untuk Membeli <i>Smartphone</i></p>
+        </div>
+        <nav class="nav">
+            <ul class="container">
+                <li class="col"><a href="#home">Home</a></li>
+                <li class="col"><a href="#product">Products</a></li>
+                <li class="col"><a href="#location">Location</a></li>
+                <li class="col"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <article class="card" id="home" >
+                <h2>Selamat Datang di Website Gawai Store Lampung</h2>
+                <p>Kami menyediakan berbagai produk dari berbagai merek <i>Smartphone</i> dengan penawaran harga terbaik.</p>
+                <img class="banner" src="assets/image/banner.jpg" alt="banner-utama">
+                <img class="banner" src="assets/image/banner_2.jpeg" alt="banner-kedua">
+                <img class="banner" src="assets/image/banner_3.jpg" alt="banner-ketiga">
+                <h4>Dapatkan penawaran tukar tambah smarphone lama anda dengan mengunjungi toko kami.</h4>
+                <img class="banner" src="assets/image/banner_4.jpg" alt="banner-keempat">
+                <p>Segera dapatkan pengalaman terbaik dalam membeli <i>smartphone</i> baru anda di toko kami.</p>
+            </article>
+            <article class="card" id="product">
+                <h2>Hot Product List</h2>
+                <p>Berikut merupakan jajaran produk terlaris toko kami:</p>
+                <div>
+                    <div class="col">
+                        <div class="container prod">
+                            <div class="col">
+                                    <div class="card hot-product">
+                                        <img id="samsung" src="assets/image/handphone/samsunga32/awesome-black.jpg" alt="photo-galaxy-a32" >
+                                        <h3>Galaxy A32</h3>
+                                        <p class="price">Rp3.149.900</p>
+                                        <p>RAM/ROM: 6/128 GB</p>
+                                        <p>Colors: </p>
+                                        <div class="container">
+                                            <button class = "btn-color-picker" title="Awesome Black"
+                                            style="background-color: #26292d;"
+                                            onclick="changeImage('samsung','samsunga32','awesome-black.jpg')"
+                                            />
+                                            <button class = "btn-color-picker" title="Awesome Blue" 
+                                            style="background-color: #8eb8d0;"
+                                            onclick="changeImage('samsung','samsunga32','awesome-blue.jpg')"
+                                            />
+                                            <button class = "btn-color-picker" title="Awesome Violet" 
+                                            style="background-color: #cbc6dc;"
+                                            onclick="changeImage('samsung','samsunga32','awesome-violet.jpg')"
+                                            />
+                                            <button class = "btn-color-picker" title="Awesome White" 
+                                            style="background-color: white; border: 1px solid black;"
+                                            onclick="changeImage('samsung','samsunga32','awesome-white.jpg')"
+                                            />
+                                        </div>
+                                        <button class="btn-details"><a href="https://www.gsmarena.com/samsung_galaxy_a32-10753.php" target="_blank">See Details</a></button>
+                                    </div>    
+                            </div>
+                            <div class="col">
+                                    <div class="card hot-product">
+                                        <img id="oppo" src="assets/image/handphone/oppoa96/pearl-pink.png" alt="photo-oppo-a96" >
+                                        <h3>Oppo A96</h3>
+                                        <p class="price">Rp4.099.000</p>
+                                        <p>RAM/ROM: 8/256 GB</p>
+                                        <p>Colors: </p>
+                                        <div class="container">
+                                            <button class = "btn-color-picker" title="Pearl Pink" style="
+                                            background: rgb(248,235,209);
+                                            background: linear-gradient(90deg, rgba(248,235,209,1) 0%, rgba(204,233,232,1) 100%);"
+                                            onclick="changeImage('oppo','oppoa96','pearl-pink.png')"
+                                            />
+                                            <button class = "btn-color-picker"
+                                            title="starry black" style="background-color: #26292d;"
+                                            onclick="changeImage('oppo','oppoa96','starry-black.png')"
+                                            />
+                                        </div>
+                                        <button class="btn-details"><a href="https://www.gsmarena.com/oppo_a96-11434.php" target="_blank">See Details</a></button>
+                                      </div>    
+                            </div>
+                            <div class="col">
+                                    <div class="card hot-product">
+                                        <img id="vivo" src="assets/image/handphone/y35/agate-black.webp" alt="photo-vivo-y35" >
+                                        <h3>Vivo Y35</h3>
+                                        <p class="price">Rp2.940.000</p>
+                                        <p>RAM/ROM: 8/128 GB</p>
+                                        <p>Colors: </p>
+                                        <div class="container">
+                                            <button class = "btn-color-picker" title="Agate Black" 
+                                            style="background-color: black;" 
+                                            onclick="changeImage('vivo','y35','agate-black.webp')"
+                                            />
+                                            <button class = "btn-color-picker" title="Dawn Yellow"
+                                            style="background: rgb(248,225,198);
+                                            background: linear-gradient(90deg, rgba(248,225,198,1) 0%, rgba(242,249,184,1) 100%);" 
+                                            onclick="changeImage('vivo','y35','dawn-yellow.webp')"
+                                            />
+                                        </div>
+                                        <button class="btn-details"><a href="https://www.gsmarena.com/vivo_y35-11770.php" target="_blank">See Details</a></button>
+                                      </div>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="container prod">
+                            <div class="col">
+                                    <div class="card hot-product">
+                                        <img id="redmi" src="assets/image/handphone/redmi10c/graphite-gray.png" alt="photo-redmi10c" >
+                                        <h3>Redmi 10C</h3>
+                                        <p class="price">Rp1.749.000</p>
+                                        <p>RAM/ROM: 4/64 GB</p>
+                                        <p>Colors: </p>
+                                        <div class="container">
+                                            <button class = "btn-color-picker" title="Graphite Gray" 
+                                            style="background-color: #353940;"
+                                            onclick="changeImage('redmi','redmi10c','graphite-gray.png')"
+                                            />
+                                            <button class = "btn-color-picker" title="Mint Green"
+                                            style="background-color: #a0c0b8;"
+                                            onclick="changeImage('redmi','redmi10c','mint-green.png')"
+                                            />
+                                            <button class = "btn-color-picker" title="Ocean Blue"
+                                            style="background-color: #588dcd;"
+                                            onclick="changeImage('redmi','redmi10c','ocean-blue.png')"
+                                            />
+                                        </div>
+                                        <button class="btn-details"><a href="https://www.gsmarena.com/xiaomi_redmi_10c-11418.php" target="_blank">See Details</a></button>
+                                    </div>    
+                            </div>
+                            <div class="col">
+                                    <div class="card hot-product">
+                                        <img id="tecno" src="assets/image/handphone/tecnopova3/eco-black.jpg" alt="photo-tecno-pova-3" >
+                                        <h3>Tecno Pova 3</h3>
+                                        <p class="price">Rp2.495.000</p>
+                                        <p>RAM/ROM: 6/128 GB</p>
+                                        <p>Colors: </p>
+                                        <div class="container">
+                                            <button class = "btn-color-picker" title="Eco Black" 
+                                            style="background-color: #45515e;"
+                                            onclick="changeImage('tecno','tecnopova3','eco-black.jpg')"
+                                            />
+                                            <button class = "btn-color-picker" title="Electric Blue"
+                                            style="background-color: #1d15e6;"
+                                            onclick="changeImage('tecno','tecnopova3','electric-blue.jpg')"
+                                            />
+                                            <button class = "btn-color-picker" title="Tech Silver"
+                                            style="background-color: #c4cad1;"
+                                            onclick="changeImage('tecno','tecnopova3','tech-silver.jpg')"
+                                            />
+                                        </div>
+                                        <button class="btn-details"><a href="https://www.gsmarena.com/tecno_pova_3-11553.php" target="_blank">See Details</a></button>
+                                      </div>    
+                            </div>
+                            <div class="col">
+                                    <div class="card hot-product">
+                                        <img id="realme" src="assets/image/handphone/realme9pro/aurora-green.webp" alt="photo-realme-9-pro" >
+                                        <h3>Realme 9 Pro</h3>
+                                        <p class="price">Rp3.599.000</p>
+                                        <p>RAM/ROM: 6/128 GB</p>
+                                        <p>Colors: </p>
+                                        <div class="container">
+                                            <button class = "btn-color-picker" title="Aurora Green" 
+                                            style="background: rgb(9,62,62);
+                                            background: linear-gradient(90deg, rgba(9,62,62,1) 0%, rgba(43,111,106,1) 100%);"
+                                            onclick="changeImage('realme','realme9pro','aurora-green.webp')"
+                                            />
+                                            <button class = "btn-color-picker" title="Midnight Black"
+                                            style="background: rgb(16,25,37);
+                                            background: linear-gradient(90deg, rgba(16,25,37,1) 0%, rgba(138,145,159,1) 100%);"
+                                            onclick="changeImage('realme','realme9pro','midnight-black.webp')"
+                                            />
+                                            <button class = "btn-color-picker" title="Sunrise Blue"
+                                            style="background: rgb(182,187,232);
+                                            background: linear-gradient(335deg, rgba(182,187,232,1) 0%, rgba(89,209,239,1) 50%);"
+                                            onclick="changeImage('realme','realme9pro','sunrise-blue.webp')"
+                                            />
+                                        </div>
+                                        <button class="btn-details"><a href="https://www.gsmarena.com/realme_9_pro-11317.php" target="_blank">See Details</a></button>
+                                      </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="card">
+                <h2 id="location">Location</h2>
+                <div class="container">
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65081100.80280391!2d37.75179389999999!3d-5.381076999999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40db8bce55cc23%3A0xbd4b2bedc71ff96!2sGAWAI.STORE!5e0!3m2!1sen!2sid!4v1664510392180!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>Jl. Mayor Sukardi Hamdani No.15, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35132</p>
+                </div>
+            </article>
+            <article class="card">
+                <h2 id="contact">Contact Us</h2>
+                <p>Segala pertanyaan yang Anda miliki dapat anda sampaikan melalui kolom dibawah ini: </p>
+                <!-- form contact -->
+                <div class="container">
+                    <form
+                    name="message-form">
+                    <div class="container-col">
+                        <label for="subject" class="form-item">Perihal:</label>    
+                        <input type="text" id="subject" class="subject form-item" required>
+                        <label for="msg" class="form-item">Pesan Anda:</label>
+                        <textarea name="msg" id="msg" cols="30" rows="10" class="form-item"></textarea>
+                        <input type="button" value="Kirim" onclick="sendMessage()" class="form-btn form-item" required>
+                    </div>
+                    </form>
+                </div>
+            </article>
+        </div>
+        <aside>
+            <article class="profile card">
+                <header>
+                    <figure>
+                        <img class="photo-profile" src="assets/image/profile.jpg" alt="foto diri">
+                    </figure>
+                </header>
+                <section class="table">
+                    <h3>Description</h3>
+                    <table>
+                       <tr>
+                          <th>Fullname:</th>
+                          <td>Ruby Chandra</td>
+                       </tr>
+                       <tr>
+                          <th>Dicoding member since:</th>
+                          <td>27 February 2020</td>
+                       </tr>
+                       <tr>
+                          <th>Occupation:</th>
+                          <td>Collage Student</td>
+                       </tr>
+                       <tr>
+                          <th>From:</th>
+                          <td>Tangerang</td>
+                   </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+    <footer class="container">
+        <p>Belajar dasar pemrograman web oleh &copyRuby_Chandra</p>
+    </footer>
+    <script>
+        function changeImage(brand, model, picName){
+            let path = "assets/image/handphone/"+model+"/"+picName;
+            document.getElementById(brand).src = path;
+        }
+        function sendMessage(){
+            let subject = document.getElementById("subject").value;
+            let message = document.getElementById("msg").value;
+            let url = `https://wa.me/6282312922640?text=*${subject}* %0a${message}`;
+            window.open(url);   
+        }
+    </script>
+</body>
+</html>
